@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# how to skip the punctuation
 from collections import Counter
 class Word:
 	def __init__(self):
@@ -12,5 +12,4 @@ class Word:
 if __name__ == '__main__':
 	root = Word()
 	root.counting()
-# i want to count each word, not character
-#how to skip spaces and punctuation
+
