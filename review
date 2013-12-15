@@ -1,0 +1,10 @@
+- super function (classes)
+'''class psw():
+    
+    def __init__(self):
+        super(psw, self).__init__() ''' #what does it mean?
+
+- other constructors and what they were made for
+
+- annotations on the notebook
+
