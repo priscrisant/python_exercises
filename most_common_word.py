@@ -2,13 +2,13 @@
 
 d = {}
 
-names = ["john", "Lisa", "jupiter", "lisa", "lisa", "mars", "mars", "john"]
+planets = ["Jupiter", "Mars", "Jupiter", "Venus", "mars", "mars", "mars", "Uranus"]
 
-print "this is the list on names:\t" + str(names)
+print "this is the list of planets:\t" + str(planets)
 
 
 
-'''for name in names:
+'''for name in planets:
     if name not in d:
         d[name]= 1
     else:
@@ -21,7 +21,7 @@ print d'''
 
 
 #short line code
-for name in names:
+for name in planets:
     d[name] = d.get(name, 0) + 1 
 print d
 
