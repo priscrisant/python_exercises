@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 
+
 import sys
 class Psw:
 
     def __init__(self):
-        print "------------------------------"
-        print "This is your password manager!"
-        print "------------------------------"
+        print ("\t################################################################")
+        print ("\t#                  SIMPLE PASSWORD MANAGER                     #")
+        print ("\t#                                    Written by Priscisant     #")
+        print ("\t################################################################")
+
 
     def Info(self):
         user = raw_input ("Please, enter the main password in lower case to have access:\n")
